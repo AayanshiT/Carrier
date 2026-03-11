@@ -450,9 +450,9 @@ body {
 .video-section {
   height: 500px;
 }
-.video_tab_swiper {
+/* .video_tab_swiper {
   margin-top: -150px;
-}
+} */
 
 /* video */
 
@@ -1735,8 +1735,8 @@ body {
   }
 
   /* title */
-  .title {
-    font-size: 13px;
+.deals-title{
+    font-size: 17px;
     line-height: 17px;
   }
 
@@ -1970,5 +1970,27 @@ body {
   line-height:20px;
   margin-bottom:12px;
 }
+
+.video-wrapper{
+  padding-left:0;
+  padding-right:0;
+}
+
+.content-area{
+  max-width:100%;
+  padding-left:0;
+  padding-right:0;
+}
+
+/* if inside bootstrap container */
+.container,
+.container-fluid{
+  padding-left:0;
+  padding-right:0;
+}
+
+.ac-card {
+    width: 85% !important;
+  }
 
 }
