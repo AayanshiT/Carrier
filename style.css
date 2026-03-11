@@ -146,17 +146,17 @@ body {
   display: flex;
   align-items: center;
   gap: 7px;
-  padding: 13px 18px;
-  font-weight: 700;
-  font-size: 13px;
+  padding: 13px 30px;letter-spacing: 0.3px;
+  font-weight: 300;
+  font-size: 12px;
   cursor: pointer;
   flex-shrink: 0;
-  white-space: nowrap;
+  white-space: nowrap;    line-height: 10px;
 }
 
 .nav-cart img {
   width: 18px;
-  height: 18px; 
+  height: auto; 
 }
 
 .cart-badge {
@@ -173,24 +173,23 @@ body {
   flex-shrink: 0;
 }
 
-.nav-wishlist {
-  background: #fff;
-  color: #555;
+.nav-wishlist { 
+  color: #fff;
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 13px 16px;
-  font-weight: 700;
-  font-size: 13px;
-  cursor: pointer;
-  border-left: 1px solid #eee;
-  flex-shrink: 0;
+  font-weight: 300;
+  font-size: 12px;
+  cursor: pointer; 
+  flex-shrink: 0;letter-spacing: 0.3px;
   white-space: nowrap;
 }
 
 .nav-wishlist img {
-  width: 17px;
-  height: 17px;
+  width: 15px;
+    height: auto;
+    margin-left: 6px;
 }
 
 /* ══════════════════════════════
@@ -246,17 +245,18 @@ body {
 .strip-icon img {
   width: 26px;
   height: 26px;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
+  object-fit: contain; 
   flex-shrink: 0;
 }
+.warranty{height: 30px !important;
+    width: auto !important;}
 
 .strip-title {
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.2px;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 25px;
 }
 
 .strip-desc {
@@ -277,12 +277,12 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;width: 95%;
 }
 
 .deals-title {
   font-weight: 600;
-    font-size: 20px;text-transform: uppercase;
+    font-size: 21px;text-transform: uppercase;
 }
 
 .deals-line {
@@ -311,9 +311,9 @@ body {
 .ribbon {
  position: absolute;
     top: 12px;
-    left: -10px;
+    left: -6px;
     color: #000;
-    font-weight: 700;font-size: 12px;
+    font-weight: 700;font-size: 14px;
     padding: 8px 20px;
     background-image: url("../public/offer.png");
     background-size: cover;background-repeat: no-repeat;
@@ -322,7 +322,7 @@ body {
 .discount {
   color: #2a5fb0;
   font-weight: 700;
-  margin-top: 0px;font-size: 14px;
+  margin-top: 5px;font-size: 14px;
 }
 
 .img-box {
@@ -341,12 +341,12 @@ body {
 
 .title {
   font-weight: 600;
-  font-size: 15px; 
+  font-size: 15px;line-height: 18px; margin-bottom: 5px;
 }
 
 .sku {
   color: #8f8f8f;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -359,7 +359,7 @@ body {
 .old-price {
   text-decoration: line-through;
   color: #62c0e9;
-  font-size: 18px;
+  font-size: 17px;
   margin-left: 10px;
 }
 
@@ -378,7 +378,7 @@ body {
   border-radius: 8px;
   font-weight: 600;
   margin-top: auto;
-  border: none;font-size: 14px !important;
+  border: none;font-size: 13px !important;
     letter-spacing: 0.5px;box-shadow: 0px 3.69px 3.69px 0px #00000040;
     border-radius: 0 0 10px 10px !important;
 }
@@ -397,17 +397,16 @@ body {
 
 .room-item {
   display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #444;
-}
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #6D6D6D;
+}  
 
 .room-item img {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
+  width: 26px;
+  height: auto; 
 }
 
 /* gif 1 */
@@ -424,13 +423,13 @@ body {
 /* video */
 
 .carrier-section {
-  padding: 60px 0;
+  padding: 0px 0;
 }
 
 .video-wrapper {
   border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .video-wrapper video {
@@ -452,10 +451,11 @@ body {
 
 .description {
   color: #555;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
-    font-weight: 500;
+    font-weight: 500;margin-bottom: 5px;
 }
+.nav-pills .nav-link.active{background-color: transparent !important;}
 
 /* testimonial */
 
@@ -883,13 +883,16 @@ body {
 .ac-banner-section {
   width: 100%;border-radius: 20px;
 }
-.explore_category .nav-item .nav-link{font-size: 13px;
+.explore_category .nav-item .nav-link{font-size: 14px;letter-spacing: 0.2px;
     font-weight: 400;
     color: #000;}
   .explore_category .nav-item .nav-link.active{border-bottom: 0px;font-size: 15px;
     color: #2A5FB0cc;
     position: relative;}
-.explore_category .nav-item .nav-link.active::after {
+     .nav-underline .nav-link:hover{border-bottom-color:transparent !important;border-bottom: 0px;
+    color: #2A5FB0cc;
+    position: relative; transition: all 0.3s;}
+.explore_category .nav-item .nav-link.active::after, .nav-underline .nav-link:hover::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -899,9 +902,10 @@ body {
 }
 .explore_category ul{gap:40px}
 .wishlist_icons{list-style:none;display:flex;padding-left: 0px;    justify-content: flex-end;
-    gap: 8px;}
+    gap: 12px;}
 .wishlist_icons img{width: 14px; }
 .explore_category .wishlist_icons{gap: 10px;}
+.slider_section_width{width: 96% !important;margin-left: auto;padding: 0px !important;}
 
 .ac-banner-img {
   width: 100%;
@@ -938,25 +942,26 @@ body {
 /* image */
 
 .ac-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+ width: 100%;
+    height: 100%;
+    margin: auto;
 }
+.brand-box{padding: 130px 70px !important;}
 
 /* text */
 
 .brand-text {
   position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 90px;
+  left: 0; right: 0;
   font-weight: 400;
   color: #fff;
   margin: 0;
  font-size: 28px;
     letter-spacing: 0.5px;
 } 
+.explore_by_room_size{padding: 60px 0px;}
+.explore_by_room_size .video_tab_swiper{width: 86% !important;}
 
 /* ══════════════════════════════
      HAMBURGER (mobile)
@@ -1512,7 +1517,7 @@ body {
         font-weight: 600;
       }
  
-      .price {
+      /* .price {
         font-size: 10px;
         font-weight: 600;
       }
@@ -1521,13 +1526,13 @@ body {
         text-decoration: line-through;
         color: #7aa9c5;
         font-size: 10px;
-      }
+      } */
  
       .buy-btn {
         background: #2f5fa7;
         color: white;
         border: none;
-        padding: 6px 12px;
+        padding:6px 12px !important;
         margin-right: 2px;
         border-radius: 6px;
         font-size: 10px;
@@ -1546,4 +1551,6 @@ body {
 .cards:hover .card-3 { transform: rotate(0deg) translateX(0)       scale(1.15); z-index: 3; }
 .cards:hover .card-4 { transform: rotate(0deg) translateX(20px)  scale(1.05); z-index: 4; }
 .cards:hover .card-5 { transform: rotate(0deg) translateX(40px)  scale(1.05); z-index: 5; }
- 
+ @media (max-width: 767px){
+  
+ }
